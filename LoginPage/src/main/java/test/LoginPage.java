@@ -18,7 +18,7 @@ public class LoginPage extends GenericServlet
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException 
 	{
 		System.out.println("Login page");
-		
+		// some chanegs in code
 		PrintWriter pw = res.getWriter();
 		res.setContentType("text/html");
 		
