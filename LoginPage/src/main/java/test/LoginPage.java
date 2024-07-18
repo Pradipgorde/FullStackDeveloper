@@ -17,7 +17,11 @@ public class LoginPage extends GenericServlet
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException 
 	{
+//<<<<<<< HEAD
 		System.out.println("hi this is aarabv");
+//=======
+		System.out.println(" hi this is paddy");
+//>>>>>>> branch 'main' of https://github.com/Pradipgorde/FullStackDeveloper
 		System.out.println("Login page");
 		// some chanegs in code
 		PrintWriter pw = res.getWriter();
